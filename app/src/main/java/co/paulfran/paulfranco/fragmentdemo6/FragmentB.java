@@ -26,5 +26,8 @@ public class FragmentB extends Fragment {
 
     public void addTwoNumbersInFragmentB(int x, int y) {
 
+        int result = x + y;
+        txvResult.setText("Result: " + result);
+
     }
 }
